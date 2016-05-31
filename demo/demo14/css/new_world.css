@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+/************************mainBoy全局样式****************************/
+body,div,img,ul,li,p,span,a,form,input,textarea,table,tr,td,select{margin:0px;padding:0px;}
+.mainBoy{width:100%;min-width:1280px;background:#fff;color:#aaa;font-size:12px;font-family:微软雅黑;}
+a{text-decoration:none;color:#aaa;}
+ul,li{list-style-type:none;}
+.clear{clear:both;}
+.right_border_line{border-right:1px solid #666;}
+
+/*******top顶部样式*******/
+.mainBoy .top{width:100%;height:58px;background:url(../images/banner_book_logo.png) no-repeat 59px center;margin-bottom:3px;}
+.mainBoy .top .span_new_world{font-family:黑体;font-size:21px;height:58px;line-height:58px;margin-left:102px;color:#393a3a;}
+.mainBoy .top ul{float:right;font-size:14px;margin-right:68px;text-align:center;}
+.mainBoy .top ul li{width:100px;height:58px;line-height:58px;float:left;}
+.mainBoy .top ul li .a_css:hover{color:#e74f4d;border-bottom:4px solid #e74f4d;display:block;}
+.mainBoy .top ul .li_logo{background:url(../images/log_in.png) no-repeat;background-position:5px center;}
+.mainBoy .top ul .li_logo a{color:#e74f4d;}
+
+/*******banner样式*******/
+.mainBoy .banner{width:100%;height:944px;color:#FFF;}
+.mainBoy .banner .banner_img{width:100%;height:854px;background:url(../images/banner.png) no-repeat; background-size: 100% 100%;}
+.mainBoy .banner .banner_img .banner_content{float:left;margin-top:200px;margin-left:120px;}
+.mainBoy .banner .banner_img .banner_content .time{font-size:60px;}
+.mainBoy .banner .banner_img .banner_content .p_new_young{font-size:21px;padding:10px  0px;margin-bottom:58px;}
+.mainBoy .banner .banner_img .banner_content .start{font-size:30px;width:330px;height:63px;background:#F00;line-height:63px;text-align:center;}
+.mainBoy .banner .secord_color{width:100%;height:250px;background:#fff;position:absolute;top:690px;font_size:14px;font-family:黑体;color:#767777;}
+.mainBoy .banner .secord_color table{width:100%;text-align:center;border-collapse:collapse;margin-top:50px; vertical-align:top;}
+.mainBoy .banner .secord_color table tr{height:50px;}
+
+/*******about_new_world样式*******/
+.mainBoy .about_new_world{width:100%;height:364px;font-size:53.59px;font-family:黑体;color:#a1a1a1;text-align:center;background:#edecec;}
+.mainBoy .about_new_world img{margin-top:80px;}
+.mainBoy .about_new_world p{margin-top:80px;}
+
+
+/*******check_new_world_city样式*******/
+.mainBoy .check_new_world_city{width:100%;height:340px;color:#FFF;position:relative;text-align:center;background:url(../images/map.png) no-repeat;background-size:cover;}
+.mainBoy .check_new_world_city .bgcolor{width:100%;height:357px;position:absolute;top:0px;left:0px;}
+.mainBoy .check_new_world_city .bgcolor .check{font-size:21px;margin-top:52px;}
+.mainBoy .check_new_world_city .bgcolor .line{width:30px;height:3px;background:#FFF;margin:5px 660px 20px;}
+.mainBoy .check_new_world_city .bgcolor form select{width:237px;height:36px;margin:52px 10px 0px; padding-left:5px;color:#CCC;}
+.mainBoy .check_new_world_city .bgcolor form select:after{content:url(../images/arrow.png); display:block;}
+.mainBoy .check_new_world_city .bgcolor form select option{padding:5px 10px 0px;}
+
+.mainBoy .check_new_world_city .bgcolor form input{width:237px;height:37px;background: url(../images/btn.png) no-repeat;border:none;}
+
+
+/*******city_activity样式*******/
+.mainBoy .city_activity{width:100%;height:605px; background:#f7f7f7;overflow:hidden;}
+.mainBoy .city_activity ul{width:1040px;height:391px;margin: 100px auto;}
+.mainBoy .city_activity ul li{width:220px;height:100%;border:1px solid #CCC;;float:left;margin: 0px 19px;text-align:center;}
+.mainBoy .city_activity ul li img{padding:10px 8px;background:#FFF;}
+.mainBoy .city_activity ul li .font1{font-size:21px;font-family:黑体;color:#000;}
+.mainBoy .city_activity ul li .font2{margin:5px;}
+.mainBoy .city_activity ul li .font3{font-size:28px;font-family:黑体;color:#000; letter-spacing:26px;}
+
+
+
+/*******new_world样式*******/
+.mainBoy .new_world{width:100%;height:1086px;}
+.mainBoy .new_world .up{width:100%;height:567px;}
+.mainBoy .new_world .up .left{width:850px;height:567px; background:url(../images/man.png) no-repeat;text-align:center;color:#FFF;float:left;position:relative;}
+.mainBoy .new_world .up .left .p1{font-size:49.47px;padding-top:123px;height:49.47px;}
+.mainBoy .new_world .up .left .p2{font-size:157.79px;height::157.79px;}
+.mainBoy .new_world .up .left .p3{font-size:21.91px;}
+.mainBoy .new_world .up .left .triangle-left{width:0px;height:0px;border-top:20px solid transparent;border-right:30px solid #FFF;border-bottom:20px solid transparent;position:absolute;top:50%;right:0px;}
+.mainBoy .new_world .up .right{width:480px;height:567px; float:right;text-align:center;}
+.mainBoy .new_world .up .right h1{margin-top:163px;color:#000;}
+.mainBoy .new_world .up .right p{width:291px;margin:40px auto;line-height:40px;}
+.mainBoy .new_world .up .right a{border:1px solid #F00;font-size:12px;padding:10px 30px;color:#F00;}
+.mainBoy .new_world .down{width:100%;height:519px;font-size:21px;font-family:黑体;}
+.mainBoy .new_world .down .one{width:420px;height:100%;background:#F00;float:left;text-align:center;color:#FFF;}
+.mainBoy .new_world .down .one .one_new{margin-top:180px;padding:20px;line-height:30px;}
+.mainBoy .new_world .down .one .one_btn{border:1px solid #FFF;margin-bottom:0px;padding:10px 40px;}
+.mainBoy .new_world .down .two{height:100%;float:left;text-align:center;padding: 0px 108px;}
+.mainBoy .new_world .down .two .two_new{margin-top:180px;padding:20px;line-height:30px;}
+.mainBoy .new_world .down .two .two_btn{border:1px solid #F00;margin-bottom:0px;padding:10px 40px; color:#F00;}
+.mainBoy .new_world .down .three{width:497px;height:100%;background: url(../images/woman.png) no-repeat;float:right;background-size:cover;position:relative;}
+.mainBoy .new_world .down .three .triangle-right{border-left:30px solid #FFF;border-top:20px solid transparent;border-bottom:20px solid transparent;position:absolute;top:50%;left:0px;}
+/*******contact_us样式*******/
+.mainBoy .contact_us{width:100%;height:750px;}
+.mainBoy .contact_us .top_form{width:100%;height:300px;}
+.mainBoy .contact_us .top_form ul{text-align:center;margin-top:100px;position:relative;}
+.mainBoy .contact_us .top_form ul li h1{font-size:21px;font-family:黑体;color:#323333;padding-bottom:10px;}
+.mainBoy .contact_us .top_form ul li div{width:30px;height:2px;background:#F00;position:absolute;left:49%;top:36%;}
+.mainBoy .contact_us .top_form ul li p{height:25px;line-height:25px;}
+.mainBoy .contact_us .left_from{width:500px;height:400px;float:left;} 
+.mainBoy .contact_us .left_from ul{width:290px;height:280px;margin-left:138px;position:relative;color:#231815;}
+.mainBoy .contact_us .left_from ul li h1{font-size:14px;font-family:黑体;}
+.mainBoy .contact_us .left_from ul li{height:108px;} 
+.mainBoy .contact_us .left_from ul li p{line-height:25px;margin-top:20px;font-family:宋体;}
+.mainBoy .contact_us .left_from ul li span{position:absolute;right:0px;}
+.mainBoy .contact_us .right_from{width:810px;height:450px;float:right;font-family:宋体;}
+.mainBoy .contact_us .right_from form table{width:640px;border-collapse:collapse; vertical-align:top;}
+.mainBoy .contact_us .right_from form table tr td{width:300px;}
+.mainBoy .contact_us .right_from form table tr td input{width:310px;height:40px;background:#ededee;border:none;color:#231815;margin:0px 20px 15px 0px;padding-left:10px;}
+.mainBoy .contact_us .right_from form table tr td textarea{width:650px;height:120px;background:#ededee;border:none;color:#231815;padding-left:10px;font-family:宋体;font-size:12px;}
+.mainBoy .contact_us .right_from form table tr td .btn_input{width:660px;margin-top:15px;font-weight:bold;color:#231815;font-family:宋体;}
+
+
+
+/*******contact_us样式*******/
+.mainBoy .bottom{width:100%;height:415px;text-align:center;color:#FFF;}
+.mainBoy .bottom .bottom_one{padding-top:50px;background:#32363e;height:362px;}
+.mainBoy .bottom .bottom_one h1{font-size:21px;font-family:黑体;}
+.mainBoy .bottom .bottom_one p{font-size:12px;font-family:宋体;line-height:20px;}
+.mainBoy .bottom .bottom_one form{margin-top:30px;}
+.mainBoy .bottom .bottom_one form .text{width:420px;height:40px;padding-left:10px;padding-right:0px;margin-right:0px;color:#aaaaaa;font-size:14px;border:none;}
+.mainBoy .bottom .bottom_one form .text_btn{width:80px;height:40px;background:#6f7178;border:none;padding;margin:0px;color:#FFF;font-size:15px;font-family:微软雅黑; letter-spacing:10px;}
+.mainBoy .bottom .bottom_one img{margin:35px;}
+.mainBoy .bottom .bottom_two{height:53px;background:#2f2f38;font-family:宋体;font-size:12px;color:#FFF;position:relative;}
+.mainBoy .bottom .bottom_two .span1{position:absolute;top:26px;left:100px;}
+.mainBoy .bottom .bottom_two .span2{position:absolute;bottom:0px;right:20px;}

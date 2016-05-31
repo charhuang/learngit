@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/*******全局样式*******/
+body,div,img,p,hr,br,ul,li,span{margin:0px;padding:0px;}
+.mainboy{width:980px;height:1386px;backgroud:#FFF;border:1px solid #00F;margin:0px auto;}
+ul,li{list-style:none;}
+
+/*****top*****/
+.mainboy .top{position:relative;}
+.mainboy .top .ife{width:110px;height:61px;background:#d45d5c;margin-left:44px;position:relative;}
+.mainboy .top .ife .htp{font-size:12px; font-family:黑体;color:#fff;position:absolute;bottom:5px;left:4px;}
+.mainboy .top .span2{font-size:12px;font-family:黑体;color:#d45d5c;position:absolute;right:44px;top:44px;}
+.mainboy .top hr{width:892px;height:2px;color:#938e8c;margin:0px auto;}
+
+/*******content*********/
+.content{width:892px;margin:35px auto;font-size:12px;position:relative;}
+.content .up{height:500px;}
+.content .up .banner img{width:641px;height:301px;}
+.content .up .banner .about{width:203px;height:301px;position:absolute;top:0px;right:0px;}
+.content .up .banner .about hr{height:2px;color:#cc8091;}
+.content .up .banner .about .p1{font-size:16px;color:#000;font-family:微软雅黑;text-decoration:underline;}
+.content .up .banner .about .p1 .AB{font-size:24px;}
+.content .up .banner .about .p2{font-family:楷体;color:#676767;line-height:10px;}
+.content .up .banner .about .p3{font-size:116px;font-family:微软雅黑;color:#75b86b; text-indent:-20px; font-style:oblique;margin:-2px;}
+.content .up .banner .about .p4{position:relative;text-indent:5px;font-family:微软雅黑;}
+.content .up .banner .about .p4 .span3{font-size:55px;color:#cc8091;}
+.content .up .banner .about .p4 .span4{font-size:21px;color:#cc8091;position:absolute;left:85px;top:25px;}
+.content .up .banner .about .p4 .span5{color:#676767;position:absolute;left:85px;bottom:12px;}
+
+.content .up .wwh{width:641px;font-size:12px;font-family:宋体;color:#767777;margin:40px 0px;line-height:16px;overflow:hidden;}
+.content .up .wwh .what{width:200px;float:left;}
+.content .up .wwh .what .pwhat{font-size:16px;font-family:微软雅黑;color:#418c59;text-decoration:underline;font-weight:bold;margin-bottom:10px;}
+.content .up .wwh .when{width:200px;float:left;margin:0px 16px;}
+.content .up .wwh .when .pwhen{font-size:16px;font-family:微软雅黑;color:#d2994f;text-decoration:underline;font-weight:bold;margin-bottom:10px;}
+.content .up .wwh .how{width:200px;float:right;}
+.content .up .wwh .how .phow{font-size:16px;font-family:微软雅黑;color:#cc7680;text-decoration:underline;font-weight:bold;margin-bottom:10px;}
+.content .up .wwh .how .phowc{margin-bottom:30px;}
+.content .up .wwh .how ul li{line-height:16px;}
+.content .up .wwh .how ul li .span6{font-family:微软雅黑;color:#cd4a48;font-style:italic;}
+
+.content .down{height:600px;margin-top:80px;position:relative;}
+.content .down .left{width:415px;position:relative;}
+.content .down .left .p5{height:170px;font-family:黑体;font-weight:bold;}
+.content .down .left .p5 .span7{font-size:72px;color:#f5e327;font-style:oblique;}
+.content .down .left .p5 .span8{font-size:42px;color:#11456b;line-height:16px;}
+.content .down .left .p5 .span9{font-size:33px;color:#11456b;line-height:80px;}
+.content .down .left hr{width:415px;color:#11456b;height:2px;position:absolute;top:170px;}
+.content .down .left .cp{height:400px;font-size:12px;color:#767777;font-family:宋体;}
+.content .down .left .cp .span10{font-size:70px;color:#f5e327;font-family:微软雅黑;float:left;}
+.content .down .left .cp img{width:167px;height:288px;float:right;margin:10px 0px 10px 10px;}
+
+.content .down .right{width:458px;position:absolute;top:13px;right:0px;}
+.content .down .right .imgp{width:458px;height:257px; background:url(../images/banner02.png) no-repeat;}
+
+
+.content .down .right .ulp{width:459px;height:318px; background: #eeedd6;margin-top:30px;}
+.content .down .right .ulp .lsp{margin-left:40px;padding-top:20px;}
+.content .down .right .ulp .lsp ul li{list-style-image:url(../images/image.png);list-style-position:outside;height:40px;line-height:40px;}
+.content .down .right .ulp .lsp ul li .lspan{font-size:16px;font-family:宋体;color:#5a5b5b;}
+.content .down .right .ulp .lsp ul li .rspan{font-size:12px;font-family:宋体;color:#5a5b5b;font-style:italic;}
+
+.content .down .right .ulp .one{width:260px;height:160px; background:#d45d5c;float:left;margin-right:10px;margin-top:18px;position:relative;}
+.content .down .right .ulp .hello{text-indent:36px;font-size:14px;font-family:黑体;color:#5a5b5b;font-style:italic;line-height:16px;}
+
+.bottom hr{width:892px;color:#11456b;height:1px;margin:20px 0px 0px 43px;}

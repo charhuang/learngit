@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+#warp{width:800px;margin:0 auto;}
+hr{width:100%; color:#ccc;}
+.imgid{ text-align:center; }
+.text{text-indent:2em;line-height:2em;}
+a:link,a:visited{ text-decoration:none; color:black;}
+.textColor{color:#ccc;}
